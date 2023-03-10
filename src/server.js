@@ -3,6 +3,7 @@ import cors from 'cors'
 import listEndpoints from "express-list-endpoints";
 import mediaRouter from "./api/medias/index.js";
 import { badRequestHandler, generalErrorHandler, notfoundHandler } from "./errorHandlers.js";
+import filesRouter from "./api/files/index.js";
 
 
 
@@ -14,6 +15,7 @@ server.use(cors())
 server.use(Express.json())
 
 server.use("/medias", mediaRouter)
+server.use("/medias", filesRouter)
 
 server.use(badRequestHandler)
 server.use(notfoundHandler)
