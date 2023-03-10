@@ -1,1 +1,164 @@
-[{"imdbID":"4qh6d0lf2dc5r7","title":"The Lord of the Rings: The Fellowship of the Ring","year":"2001","type":"movie","poster":"https://res.cloudinary.com/dcxywvqhz/image/upload/v1678443779/fs0522/mediaPosters/qt4ncmkxbvhknmokuy5k.jpg","createdAt":"2023-03-10T10:01:55.746Z","updatedAt":"2023-03-10T10:22:59.601Z"}]
+[
+    {
+        "imdbID": "4qha1wlf2hhvob",
+        "title": "Twilight",
+        "year": "2008",
+        "type": "movie",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678449502/fs0522/mediaPosters/vtqrwd2zz7eu00j0hlnl.jpg",
+        "createdAt": "2023-03-10T11:58:21.082Z",
+        "updatedAt": "2023-03-10T11:58:22.251Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hke2l",
+        "title": "Shrek",
+        "year": "2001",
+        "type": "animation",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678449619/fs0522/mediaPosters/ff8ofvlfu3ah3u9c2jxs.jpg",
+        "createdAt": "2023-03-10T12:00:18.237Z",
+        "updatedAt": "2023-03-10T12:00:19.074Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hs2rm",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "year": "2001",
+        "type": "adventure",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678449978/fs0522/mediaPosters/p7egldpjp1wkhzfgg9lq.jpg",
+        "createdAt": "2023-03-10T12:06:16.834Z",
+        "updatedAt": "2023-03-10T12:06:17.818Z"
+    },
+    {
+        "imdbID": "4qha1wlf2htdig",
+        "title": "Alien",
+        "year": "1979",
+        "type": "horror",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678450038/fs0522/mediaPosters/zneip3krtna38nq1n6ck.jpg",
+        "createdAt": "2023-03-10T12:07:17.416Z",
+        "updatedAt": "2023-03-10T12:07:18.391Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hu83k",
+        "title": "Spider Man",
+        "year": "2002",
+        "type": "adventure",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678450078/fs0522/mediaPosters/flsv1jfauz6vprupge1d.jpg",
+        "createdAt": "2023-03-10T12:07:57.056Z",
+        "updatedAt": "2023-03-10T12:07:58.004Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hv3sx",
+        "title": "Transformers",
+        "year": "2007",
+        "type": "action",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678450119/fs0522/mediaPosters/whef7cbk6ikmpjgltiut.jpg",
+        "createdAt": "2023-03-10T12:08:38.145Z",
+        "updatedAt": "2023-03-10T12:08:39.067Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hw07t",
+        "title": "Star Wars: Episode IV - A New Hope",
+        "year": "1977",
+        "type": "action",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678450161/fs0522/mediaPosters/dk0hrg54dikqmfxf98xb.jpg",
+        "createdAt": "2023-03-10T12:09:20.153Z",
+        "updatedAt": "2023-03-10T12:09:21.051Z"
+    },
+    {
+        "imdbID": "4qha1wlf2hwpiy",
+        "title": "Iron Man",
+        "year": "2008",
+        "type": "action",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678450194/fs0522/mediaPosters/enpirdnk2run7ynt2igp.jpg",
+        "createdAt": "2023-03-10T12:09:52.954Z",
+        "updatedAt": "2023-03-10T12:09:53.887Z"
+    },
+    {
+        "imdbID": "4qha1wlf2ipiex",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": "2001",
+        "type": "adventure",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451537/fs0522/mediaPosters/chxu5n8u3r3xchpizgsn.jpg",
+        "createdAt": "2023-03-10T12:32:16.761Z",
+        "updatedAt": "2023-03-10T12:32:17.731Z"
+    },
+    {
+        "imdbID": "4qha1wlf2iq3h7",
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": "2003",
+        "type": "adventure",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451565/fs0522/mediaPosters/scbc61wy0nvmpidfvvwx.jpg",
+        "createdAt": "2023-03-10T12:32:44.059Z",
+        "updatedAt": "2023-03-10T12:32:44.854Z"
+    },
+    {
+        "imdbID": "4qha1wlf2irdc8",
+        "title": "The Twilight Saga: Breaking Dawn - Part 2",
+        "year": "2012",
+        "type": "fantasy",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451624/fs0522/mediaPosters/l1jbrhbwpcf2q4bbq4ni.jpg",
+        "createdAt": "2023-03-10T12:33:43.496Z",
+        "updatedAt": "2023-03-10T12:33:44.894Z"
+    },
+    {
+        "imdbID": "4qha1wlf2itgze",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "year": "2004",
+        "type": "fantasy",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451722/fs0522/mediaPosters/z4fnxdebfzgzojt8diwm.jpg",
+        "createdAt": "2023-03-10T12:35:21.530Z",
+        "updatedAt": "2023-03-10T12:35:22.500Z"
+    },
+    {
+        "imdbID": "4qha1wlf2iu79v",
+        "title": "Alien³",
+        "year": "1992",
+        "type": "action",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451756/fs0522/mediaPosters/h7hchxizqv7wylhq4ske.jpg",
+        "createdAt": "2023-03-10T12:35:55.603Z",
+        "updatedAt": "2023-03-10T12:35:56.464Z"
+    },
+    {
+        "imdbID": "4qha1wlf2iv4ge",
+        "title": "The Amazing Spider Man",
+        "year": "2012",
+        "type": "sci-fi",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451799/fs0522/mediaPosters/tlnmh8moa8nsd6wdkbyo.jpg",
+        "createdAt": "2023-03-10T12:36:38.606Z",
+        "updatedAt": "2023-03-10T12:36:39.728Z"
+    },
+    {
+        "imdbID": "4qha1wlf2ivsix",
+        "title": "Transformers: Age of Extinction",
+        "year": "2014",
+        "type": "sci-fi",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451830/fs0522/mediaPosters/xriljjx6lilef8sa7mtf.jpg",
+        "createdAt": "2023-03-10T12:37:09.801Z",
+        "updatedAt": "2023-03-10T12:37:10.807Z"
+    },
+    {
+        "imdbID": "4qha1wlf2iwmki",
+        "title": "Shrek the Halls",
+        "year": "2007",
+        "type": "animation",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451869/fs0522/mediaPosters/abgpnsoi0er2uqxpo63u.jpg",
+        "createdAt": "2023-03-10T12:37:48.738Z",
+        "updatedAt": "2023-03-10T12:37:49.835Z"
+    },
+    {
+        "imdbID": "4qha1wlf2ixaha",
+        "title": "Star Wars: Episode VII - The Force Awakens",
+        "year": "2015",
+        "type": "movie",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451900/fs0522/mediaPosters/jqpdd3o8hislpus1clvy.jpg",
+        "createdAt": "2023-03-10T12:38:19.726Z",
+        "updatedAt": "2023-03-10T12:38:20.536Z"
+    },
+    {
+        "imdbID": "4qha1wlf2ixwe5",
+        "title": "Iron Man 3",
+        "year": "2013",
+        "type": "action",
+        "poster": "https://res.cloudinary.com/dcxywvqhz/image/upload/v1678451929/fs0522/mediaPosters/gi9coqlvfz0j34yrwpyx.jpg",
+        "createdAt": "2023-03-10T12:38:48.125Z",
+        "updatedAt": "2023-03-10T12:38:48.987Z"
+    }
+]
