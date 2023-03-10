@@ -10,7 +10,12 @@ const mediaRouter = Express.Router()
 mediaRouter.get("/", async (request, response, next) => {
     try {
         const medias = await getMedias()
-        response.send(medias)
+        if (request.query && request.query.title) {
+            const matchedMedias = medias.filter(media => media.title.toLowerCase().includes(request.query.title.toLowerCase()))
+            response.send(matchedMedias)
+        } else {
+            response.send(medias)
+        }
     } catch (error) {
         next(error)
     }
