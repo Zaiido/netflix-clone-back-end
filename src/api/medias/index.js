@@ -1,9 +1,8 @@
 import Express from 'express'
-import { getMedias, writeMedias } from '../../lib/fs-tools.js'
+import { addMediaToJSON, getMedias, writeMedias } from '../../lib/fs-tools.js'
 import { callBadRequest, checkMediaSchema } from './validation.js'
 import uniqid from 'uniqid'
 import createHttpError from 'http-errors'
-
 
 const mediaRouter = Express.Router()
 
@@ -12,7 +11,31 @@ mediaRouter.get("/", async (request, response, next) => {
         const medias = await getMedias()
         if (request.query && request.query.title) {
             const matchedMedias = medias.filter(media => media.title.toLowerCase().includes(request.query.title.toLowerCase()))
-            response.send(matchedMedias)
+            if (matchedMedias.length < 6) {
+                let responseFromOmdbApi = await fetch("http://www.omdbapi.com/?apikey=f26f50a5&s=" + request.query.title);
+                if (responseFromOmdbApi.ok) {
+                    const mediasFromOmdbApi = await responseFromOmdbApi.json()
+                    const modifiedMedias = mediasFromOmdbApi.Search.map(media => {
+                        if (media.Year.includes('–')) {
+                            media.Year = media.Year.replace('–', '-');
+                        }
+                        return {
+                            imdbID: uniqid(),
+                            poster: media.Poster,
+                            title: media.Title,
+                            type: media.Type,
+                            year: media.Year,
+                        }
+                    })
+                    await addMediaToJSON(medias, modifiedMedias)
+                    response.send(modifiedMedias)
+                } else {
+                    next(createHttpError(400, { message: "Something is wrong!" }))
+                }
+            } else {
+
+                response.send(matchedMedias)
+            }
         } else {
             response.send(medias)
         }
