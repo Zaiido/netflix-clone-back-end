@@ -4,6 +4,7 @@ import listEndpoints from "express-list-endpoints";
 import mediaRouter from "./api/medias/index.js";
 import { badRequestHandler, generalErrorHandler, notfoundHandler } from "./errorHandlers.js";
 import filesRouter from "./api/files/index.js";
+import reviewsRouter from "./api/reviews/index.js";
 
 
 
@@ -25,6 +26,7 @@ server.use(Express.json())
 
 server.use("/medias", mediaRouter)
 server.use("/medias", filesRouter)
+server.use("/medias", reviewsRouter)
 
 server.use(badRequestHandler)
 server.use(notfoundHandler)

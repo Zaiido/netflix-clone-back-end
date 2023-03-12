@@ -7,8 +7,10 @@ const { readJSON, writeJSON } = fs
 
 
 const dataFolderPath = join(dirname(fileURLToPath(import.meta.url)), "../data")
-const mediasJSONPath = join(dataFolderPath, "medias.json")
 
+//MEDIAS 
+
+const mediasJSONPath = join(dataFolderPath, "medias.json")
 
 export const getMedias = () => readJSON(mediasJSONPath)
 export const writeMedias = (mediasArray) => writeJSON(mediasJSONPath, mediasArray)
@@ -26,3 +28,13 @@ export const addMediaToJSON = async (medias, mediasToAdd) => {
         createHttpError(400, { message: error })
     }
 }
+
+
+
+// REVIEWS
+
+const reviewsJSONPath = join(dataFolderPath, "reviews.json")
+
+export const getReviews = () => readJSON(reviewsJSONPath)
+export const writeReviews = reviesArray => writeJSON(reviewsJSONPath, reviesArray)
+
